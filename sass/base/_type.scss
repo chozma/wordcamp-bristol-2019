@@ -1,0 +1,72 @@
+body {
+	font-family: $base-font-family;
+	color: $wcbrs-darkgrey;
+
+	font-size: $base-fontsize-mobile;
+	line-height: $base-lineheight-mobile;
+	
+	@include media-breakpoint-up(md) {
+		font-size: $base-fontsize-desktop;
+		line-height: $base-lineheight-desktop;
+	}
+}
+
+h1, 
+.page .entry-title,
+.page-title,
+body.page:not(.twentyseventeen-front-page) .entry-title {
+	font-size: $h1-fontsize-mobile;
+	line-height: $h1-lineheight-mobile;
+	text-transform: none;
+	font-weight: bold;
+	letter-spacing: 0;
+	
+	@include media-breakpoint-up(md) {
+		font-size: $h1-fontsize-desktop;
+		line-height: $h1-lineheight-desktop;
+	}
+}
+
+h2 {
+	font-size: $h2-fontsize-mobile;
+	line-height: $h2-lineheight-mobile;
+	text-transform: none;
+	color: $wcbrs-blue;
+	font-weight: bold;
+	
+	@include media-breakpoint-up(md) {
+		font-size: $h2-fontsize-desktop;
+		line-height: $h2-lineheight-desktop;
+	}
+}
+
+h3 {
+	font-size: $h3-fontsize-mobile;
+	line-height: $h3-lineheight-mobile;
+	text-transform: none;
+	font-weight: bold;
+	
+	@include media-breakpoint-up(md) {
+		font-size: $h3-fontsize-desktop;
+		line-height: $h3-lineheight-desktop;
+	}
+}
+
+h4 {
+	font-size: $h4-fontsize-mobile;
+	line-height: $h4-lineheight-mobile;
+	text-transform: none;
+	font-weight: bold;
+	
+	@include media-breakpoint-up(md) {
+		font-size: $h4-fontsize-desktop;
+		line-height: $h4-lineheight-desktop;
+	}
+}
+
+h5 {
+	font-size: $h5-fontsize;
+	line-height: $h5-lineheight;
+	text-transform: none;
+	font-weight: bold;
+}

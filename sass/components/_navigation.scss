@@ -1,0 +1,49 @@
+.navigation-top {
+	background-color: $wcbrs-darkgrey;
+
+	.current-menu-item > a, 
+	.current_page_item > a {
+		color: $wcbrs-green;
+	}
+}
+
+.main-navigation {
+
+	.menu-item {
+		@extend h3;
+
+		a {
+			color: white;
+		}
+
+		a:hover {
+			color: $wcbrs-green;
+		}
+	}
+
+	.sub-menu {
+		background-color: $wcbrs-blue;
+
+		li:hover {
+			background-color: $wcbrs-blue;
+		}
+
+		.menu-item a:hover {
+			color: white;
+			padding-left: 40px;
+		}
+
+	}
+}
+
+/* MOBILE MENU STUFF */
+.menu-toggle {
+	color: $wcbrs-green;
+}
+
+.menu-main-menu-container {
+	ul {
+		background-color: $wcbrs-darkgrey;
+	}
+
+}
