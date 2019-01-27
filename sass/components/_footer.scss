@@ -27,6 +27,10 @@
 		}
 	}
 
+	.widget-area {
+		padding-bottom: 0;
+	}
+
 	.widget-area::after {
 		background-image: url('https://2019.bristol.wordcamp.org/files/2019/01/wcb19_wapuu_@1x.png');
 		background-size: 179px 203px;
