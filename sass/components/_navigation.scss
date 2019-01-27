@@ -10,10 +10,14 @@
 .main-navigation {
 
 	.menu-item {
-		@extend h3;
+		font-size: $base-fontsize-mobile;
+		line-height: $base-lineheight-mobile;
+		border: 0;
 
 		a {
 			color: white;
+			padding-left: 0.75em;
+			padding-right: 0.75em;
 		}
 
 		a:hover {
@@ -41,9 +45,21 @@
 	color: $wcbrs-green;
 }
 
+.dropdown-toggle {
+	color: white;
+}
+
 .menu-main-menu-container {
+
 	ul {
 		background-color: $wcbrs-darkgrey;
 	}
 
+	.sub-menu {
+		background-color: $wcbrs-darkgrey;
+		
+		li:hover {
+			background-color: $wcbrs-darkgrey;
+		}
+	}
 }
