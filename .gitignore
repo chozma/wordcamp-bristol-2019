@@ -1,0 +1,7 @@
+#ignore the gulp folder
+node_modules/*
+
+#ignore the other gulp bits
+npm-debug.log
+
+.DS_Store
