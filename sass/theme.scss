@@ -1,11 +1,12 @@
 
 
-@import "base/bootstrap"; // Just stuff we need to make the SASS breakpoints work
+@import "base/bootstrap";  // Just stuff we need to make the SASS breakpoints work
 
-@import "base/variables"; // Colours and breakfonts
-@import "base/fonts"; // Imported fonts
+@import "base/variables";  // Colours and breakfonts
+@import "base/fonts";      // Imported fonts
 @import "base/typography"; // Variables for typography
-@import "base/type"; // Application of variables to basic HTML elements
+@import "base/type";       // Application of variables to basic HTML elements
+@import "base/mixins";     // Useful reusable mixins
 
 
 @import "components/navigation"; 

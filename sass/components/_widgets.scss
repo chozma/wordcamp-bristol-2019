@@ -15,6 +15,10 @@
 	margin-bottom: 40px;
 	border-radius: 10px;
 
+	&:last-of-type {
+		margin-bottom: 0;
+	}
+
 	a {
 		color: white;
 		box-shadow: none;
@@ -45,6 +49,7 @@ h2.widget-title {
 .site-footer .widget-area ul li a {
 	box-shadow: none;
 	text-decoration: none;
+
 }
 
 /* JETPACK SOCIAL ICONS WIDGET */
@@ -56,5 +61,9 @@ h2.widget-title {
 
 	svg {
 		color: white;
+
+		&:hover {
+			color: $wcbrs-pink;
+		}
 	}
 }

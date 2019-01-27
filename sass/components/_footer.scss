@@ -9,6 +9,10 @@
 		line-height: $base-lineheight-desktop;
 	}
 
+	.wrap {
+		padding-bottom: 0;
+	}
+
 
 	h2.widget-title {
 		color: $wcbrs-green;
@@ -20,6 +24,47 @@
 		@include media-breakpoint-up(md) {
 			font-size: $base-fontsize-desktop;
 			line-height: $base-lineheight-desktop;
+		}
+	}
+
+	.widget-area::after {
+		background-image: url('https://2019.bristol.wordcamp.org/files/2019/01/wcb19_wapuu_@1x.png');
+		background-size: 179px 203px;
+		background-repeat: no-repeat;
+		width: 179px;
+		height: 203px;
+		float: right;
+		position: relative;
+		top: 40px;
+		z-index: 2;
+	}
+
+	.site-info {
+		clear: both;
+		@include wcbrs-gradient;
+		@include force-full-width;
+		height: 60px;
+		text-align: center;
+		font-size: $base-fontsize-mobile;
+		line-height: $base-lineheight-mobile;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		
+		@include media-breakpoint-up(sm) {
+			font-size: $base-fontsize-desktop;
+			line-height: $base-lineheight-desktop;
+			justify-content: center;
+		}
+
+		a {
+			color: $wcbrs-darkgrey;
+			box-shadow: none;
+			padding-left: 2em;
+
+			@include media-breakpoint-up(sm) {
+				padding-left: 0;
+			}
 		}
 	}
 }
