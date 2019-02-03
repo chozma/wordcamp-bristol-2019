@@ -1,0 +1,28 @@
+.site-branding {
+
+	.home & {
+		@include media-breakpoint-up(md) {
+			margin-bottom: 300px;
+		}
+	}
+
+	.wrap {
+		text-align: center;
+	}
+}
+
+.custom-logo-link {
+	text-align: center;
+	padding: 0;
+
+	img {
+		max-height: 250px;
+		max-width: 250px;
+		width: 100%;
+	}
+}
+
+body.home.title-tagline-hidden.has-header-image .custom-logo-link img {
+	max-height: 400px;
+	max-width: 400px;
+}
