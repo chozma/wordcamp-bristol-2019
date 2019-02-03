@@ -1,4 +1,18 @@
 #tix-attendees {
+
+	.tix-columns-3 li {
+		width: 100%;
+
+		@include media-breakpoint-up(sm) {
+			width: 50%;
+		}
+
+		@include media-breakpoint-up(md) {
+			width: 33.3%;
+		}
+	}
+
+
 	.tix-attendee-twitter {
 		box-shadow: none;
 		text-decoration: underline;
