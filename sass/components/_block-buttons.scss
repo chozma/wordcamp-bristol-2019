@@ -1,0 +1,22 @@
+.entry-content .wp-block-button {
+
+	.wp-block-button__link {
+		background-color: $wcbrs-pink;
+		color: $wcbrs-darkgrey;
+		min-width: 216px;
+		min-height: 35px;
+		font-size: $base-fontsize-mobile;
+		line-height: $base-lineheight-mobile;
+		
+		&:hover {
+			@include wcbrs-gradient;
+			color: $wcbrs-darkgrey;
+			font-weight: bold;
+		}
+
+		@include media-breakpoint-up(sm) {
+			font-size: $base-fontsize-desktop;
+			line-height: $base-lineheight-desktop;
+		}
+	}
+}
