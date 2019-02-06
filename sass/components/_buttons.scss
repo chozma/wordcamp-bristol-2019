@@ -10,11 +10,13 @@
 		line-height: $base-lineheight-mobile;
 		border-radius: 28px;
 		padding: 0.7em 2em;
+		transition:none;
 		
 		&:hover {
-			background-color: $wcbrs-green;
+			@include wcbrs-gradient;
 			color: $wcbrs-darkgrey;
 			font-weight: bold;
+			transition:none;
 		}
 
 		@include media-breakpoint-up(sm) {
