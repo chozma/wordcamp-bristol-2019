@@ -1,6 +1,6 @@
 .entry-content .wp-block-button {
 
-	.wp-block-button__link {
+	.wp-block-button__link, .pushbutton-wide {
 		background-color: $wcbrs-pink;
 		color: $wcbrs-darkgrey;
 		min-width: 216px;
@@ -9,7 +9,7 @@
 		line-height: $base-lineheight-mobile;
 		
 		&:hover {
-			@include wcbrs-gradient;
+			background-color: $wcbrs-green;
 			color: $wcbrs-darkgrey;
 			font-weight: bold;
 		}
