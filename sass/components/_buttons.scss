@@ -1,12 +1,13 @@
 .entry-content .wp-block-button {
 
-	.wp-block-button__link, .pushbutton-wide {
+	.wp-block-button__link, .contact-submit input[type="submit"] {
 		background-color: $wcbrs-pink;
 		color: $wcbrs-darkgrey;
 		min-width: 216px;
 		min-height: 35px;
 		font-size: $base-fontsize-mobile;
 		line-height: $base-lineheight-mobile;
+		border-radius: 28px;
 		
 		&:hover {
 			background-color: $wcbrs-green;
