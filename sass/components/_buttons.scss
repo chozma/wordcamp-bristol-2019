@@ -1,6 +1,7 @@
-.entry-content .wp-block-button {
+.entry-content .wp-block-button,
+.contact-submit {
 
-	.wp-block-button__link, .contact-submit input[type="submit"] {
+	.wp-block-button__link, input[type="submit"] {
 		background-color: $wcbrs-pink;
 		color: $wcbrs-darkgrey;
 		min-width: 216px;
