@@ -6,7 +6,7 @@
     .custom-header {
         height: auto;
         @include media-breakpoint-up(sm) {
-            margin-bottom:74px;
+            margin-bottom:74px!important;
         }
     }
     // Adjust header height
