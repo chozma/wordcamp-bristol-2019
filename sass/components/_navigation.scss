@@ -63,3 +63,17 @@
 		}
 	}
 }
+	
+// Move nav to top
+@include media-breakpoint-up(sm) {
+	.navigation-top {
+		position: fixed!important; // fixed for sticky, absolute to scroll
+		top: 0px;
+		width: 100%;
+		height: 70px;
+		// Shift nav down if admin bar (dashboard) is present
+		.admin-bar &{
+			top: 32px;
+		}
+	}
+}

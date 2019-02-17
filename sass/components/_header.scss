@@ -5,14 +5,12 @@
     // Adjust header height
     .custom-header {
         height: auto;
-        @include media-breakpoint-up(sm) {
-            margin-bottom:74px!important;
-        }
     }
     // Adjust header height
     .custom-header-media {
         @include media-breakpoint-up(sm) {
-            height: 364px;
+            height: auto;
+            position: absolute;
         }
     }
     // Prevent parallax scrolling
@@ -27,6 +25,8 @@
     // Vertical center logo
     .site-branding {
         margin-bottom: 0!important;
+        padding-top: 3em;
+        position: relative;
     }
     // Darkening of background image
     .custom-header-media:before {
@@ -42,5 +42,15 @@
         position: absolute;
         right: 0;
         z-index: 2;
+    }
+}
+
+// Accomodate top nav fixed
+@include media-breakpoint-up(sm) {
+    .custom-header {
+        height: auto;
+        position: relative;
+        padding-top: 70px;
+        margin-bottom: 0!important
     }
 }
