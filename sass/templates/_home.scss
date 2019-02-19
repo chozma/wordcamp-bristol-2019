@@ -1,0 +1,51 @@
+.twentyseventeen-front-page {
+	.site-content-contain {
+		background-color: $wcbrs-darkgrey;
+	}
+
+	.panel-content .wrap {
+		max-width: 900px;
+		padding-bottom: 0;
+	}
+
+
+	.entry-content p {
+		color: white;
+	}
+}
+
+.wp-block-columns {
+	justify-content: center;
+	align-items: center;
+}
+
+.wp-block-column {
+	margin-top: 30px;
+
+}
+
+.home-button-block {
+	.wp-block-image {
+		margin-bottom: 0;
+
+		img {
+			max-width: 250px;
+
+			@include media-breakpoint-up(sm) {
+				max-width: 100%;
+			}
+		}
+	}
+
+	.wp-block-button .wp-block-button__link {
+		padding: 0.4em 1em;
+		margin-top: 0;
+		min-width: 200px;
+		position: relative;
+		top: -75px;
+
+		@include media-breakpoint-up(md) {
+			top: -60px;
+		}
+	}
+}
