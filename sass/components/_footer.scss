@@ -3,6 +3,7 @@
 	color: white;
 	font-size: $base-fontsize-mobile;
 	line-height: $base-lineheight-mobile;
+	border-top: none;
 
 	@include media-breakpoint-up(md) {
 		font-size: $base-fontsize-desktop;
