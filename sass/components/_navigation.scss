@@ -1,5 +1,7 @@
 .navigation-top {
 	background-color: $wcbrs-darkgrey;
+	border-top: none;
+	border-bottom: none;
 
 	.current-menu-item > a, 
 	.current_page_item > a {
