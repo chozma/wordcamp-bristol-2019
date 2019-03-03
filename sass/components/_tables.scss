@@ -1,0 +1,23 @@
+table,
+.wp-block-table {
+	tr {
+		border-bottom: 0 !important;
+	}
+
+	td, td:first-child {
+		background-color: $wcbrs-lightgrey;
+		padding: 5px;
+		border-right: 5px solid white !important;
+		font-size: $base-fontsize-mobile;
+
+		&:last-child {
+			border-rihgt: 0;
+		}
+	}
+
+	thead {
+		td {
+			color: $wcbrs-blue;
+		}
+	}
+}
