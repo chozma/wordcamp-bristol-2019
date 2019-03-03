@@ -13,6 +13,7 @@
 		transition:none;
 		font-family: $base-font-family;
 		
+		
 		&:hover {
 			@include wcbrs-gradient;
 			color: $wcbrs-darkgrey;
