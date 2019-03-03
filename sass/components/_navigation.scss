@@ -20,6 +20,7 @@
 			color: white;
 			padding-left: 0.75em;
 			padding-right: 0.75em;
+			transition: all 0.2s ease-in-out
 		}
 
 		a:hover {
@@ -29,6 +30,7 @@
 
 	.sub-menu {
 		background-color: $wcbrs-blue;
+		border: none;
 
 		li:hover {
 			background-color: $wcbrs-blue;
@@ -37,31 +39,35 @@
 		.menu-item a:hover {
 			color: white;
 			padding-left: 40px;
+			transition: all 0.2s ease-in-out
 		}
 
 	}
 }
 
 /* MOBILE MENU STUFF */
-.menu-toggle {
-	color: $wcbrs-green;
-}
+@include media-breakpoint-down(sm) {
 
-.dropdown-toggle {
-	color: white;
-}
-
-.menu-main-menu-container {
-
-	ul {
-		background-color: $wcbrs-darkgrey;
+	.menu-toggle {
+		color: $wcbrs-green;
 	}
 
-	.sub-menu {
-		background-color: $wcbrs-darkgrey;
-		
-		li:hover {
+	.dropdown-toggle {
+		color: white;
+	}
+
+	.menu-main-menu-container {
+
+		ul {
 			background-color: $wcbrs-darkgrey;
+		}
+
+		.sub-menu {
+			background-color: $wcbrs-darkgrey;
+			
+			li:hover {
+				background-color: $wcbrs-darkgrey;
+			}
 		}
 	}
 }
