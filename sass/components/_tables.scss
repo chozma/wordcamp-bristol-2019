@@ -6,13 +6,19 @@ table,
 
 	td, td:first-child {
 		background-color: $wcbrs-lightgrey;
-		padding: 5px;
+		padding: 7px 10px;
 		border-right: 5px solid white !important;
 		font-size: $base-fontsize-mobile;
+		text-align: center;
 
 		&:last-child {
-			border-rihgt: 0;
+			border-right: 0;
 		}
+	}
+
+	td:first-child {
+		text-align: left;
+		font-weight: bold;
 	}
 
 	thead {
