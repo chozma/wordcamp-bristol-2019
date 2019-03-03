@@ -2,4 +2,13 @@
 	.fav-session-button {
 		box-shadow: none;
 	}
+
+	tr {
+		border: 0;
+	}
+}
+
+.wcpt-session-type-session::before {
+	color: $wcbrs-blue;
+	border: 0;
 }
