@@ -13,6 +13,7 @@ table,
 		border-right: 5px solid white !important;
 		font-size: $base-fontsize-mobile;
 		text-align: center;
+		word-break: normal;
 
 		&:last-child {
 			border-right: 0;
