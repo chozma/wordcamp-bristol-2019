@@ -15,7 +15,7 @@
 
 .wcpt-session-title {
 	display: inline-block;
-	box-shadow: none;
+	box-shadow: none !important;
 	text-decoration: underline;
 
 	&:hover {
