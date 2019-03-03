@@ -5,7 +5,9 @@ table,
 		border-bottom: 0 !important;
 	}
 
-	td, td:first-child {
+	th,
+	td, 
+	td:first-child {
 		background-color: $wcbrs-lightgrey;
 		padding: 7px 10px;
 		border-right: 5px solid white !important;
