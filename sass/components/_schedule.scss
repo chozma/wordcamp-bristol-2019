@@ -13,7 +13,7 @@
 	border: 0;
 }
 
-.wcpt-session-title {
+a.wcpt-session-title {
 	display: inline-block;
 	box-shadow: none !important;
 	text-decoration: underline;
@@ -21,4 +21,8 @@
 	&:hover {
 		text-decoration: none;
 	}
+}
+
+.wcpt-schedule .dashicons {
+	position: relative;
 }
