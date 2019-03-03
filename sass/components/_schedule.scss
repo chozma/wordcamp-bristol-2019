@@ -6,6 +6,15 @@
 	tr {
 		border: 0;
 	}
+
+	th.wcpt-col-time {
+		
+		width: 20%;
+	}
+
+	th.wcpt-col-track {
+		width: 40%;
+	}
 }
 
 .wcpt-session-type-session::before {
