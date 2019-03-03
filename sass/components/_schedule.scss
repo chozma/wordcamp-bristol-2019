@@ -12,3 +12,13 @@
 	color: $wcbrs-blue;
 	border: 0;
 }
+
+.wcpt-session-title {
+	display: inline-block;
+	box-shadow: none;
+	text-decoration: underline;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
