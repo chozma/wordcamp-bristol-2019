@@ -1,10 +1,11 @@
 .entry-content .wp-block-button,
 .contact-submit,
 .widget_blog_subscription,
-.tix-submit {
+#tix .tix-submit {
 
 	.wp-block-button__link, 
-	input[type="submit"] {
+	input[type="submit"],
+	.tix-checkout-button {
 		background-color: $wcbrs-pink;
 		color: $wcbrs-darkgrey;
 		min-width: 216px;
