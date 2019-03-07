@@ -1,0 +1,12 @@
+.tix-ticket-excerpt {
+	font-weight: normal;
+}
+
+.tix-order-summary,
+.tix-attendee-form {
+	th, td,
+	td:first-child {
+		background-color: white;
+		text-align: left;
+	}
+}
