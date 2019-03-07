@@ -55,3 +55,13 @@
         margin-bottom: 0!important
     }
 }
+
+
+// Hide header on certain pages
+.page-id-11, //locations and dates
+.page-id-19 //code of conduct 
+	{
+	.custom-header {
+		display: none;
+	}
+}
