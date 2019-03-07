@@ -1,3 +1,22 @@
+.tix-ticket-form input[type="text"], 
+.tix-ticket-form input[type="email"], 
+.tix-ticket-form input[type="url"], 
+.tix-ticket-form textarea, 
+.tix-private-form input[type="text"], 
+.tix-private-form input[type="email"], 
+.tix-private-form input[type="url"], 
+.tix-private-form textarea, 
+.tix-attendee-form input[type="text"], 
+.tix-attendee-form input[type="email"], 
+.tix-attendee-form input[type="url"], 
+.tix-attendee-form textarea, 
+.tix-receipt-form input[type="text"], 
+.tix-receipt-form input[type="email"], 
+.tix-receipt-form input[type="url"], 
+.tix-receipt-form textarea {
+	width: 100%;
+}
+
 .tix-ticket-excerpt {
 	font-weight: normal;
 }
@@ -17,5 +36,13 @@
 	td:first-child  {
 		padding: 10px 0;
 		font-weight: normal;
+	}
+
+	label {
+		font-weight: normal;
+	}
+
+	.tix-right {
+		padding-left: 10px;
 	}
 }
