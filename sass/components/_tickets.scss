@@ -44,5 +44,9 @@
 
 	.tix-right {
 		padding-left: 10px;
+
+		@include media-breakpoint-up(sm) {
+			padding-left: 20px;
+		}
 	}
 }
