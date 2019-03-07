@@ -46,6 +46,10 @@
 		}
 
 	}
+
+	ul li.menu-item-has-children::after {
+		border-color: transparent transparent $wcbrs-blue;
+	}
 }
 
 /* MOBILE MENU STUFF */
