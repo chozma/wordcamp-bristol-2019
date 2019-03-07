@@ -13,7 +13,8 @@
 }
 
 .tix-attendee-form {
-	td {
+	td,
+	td:first-child  {
 		padding: 10px 0;
 		font-weight: normal;
 	}
