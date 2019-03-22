@@ -36,7 +36,9 @@
 		}
 
 		.global-session {
-			background-color: $wcbrs-medlightgrey;
+			td, td:first-child {
+				background-color: $wcbrs-medlightgrey;
+			}
 		}
 	}
 }
