@@ -28,6 +28,7 @@
 		}
 
 		td.wcb-favourite-session a.fav-session-button,
+		#content & a.fav-session-button:hover,
 		div.wcb-session-favourite-icon a.fav-session-button:hover {
 			color: $wcbrs-pink;
 		}
