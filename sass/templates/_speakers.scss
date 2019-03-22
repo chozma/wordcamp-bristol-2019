@@ -9,6 +9,17 @@
 	}
 
 	.wcpt-schedule {
+		color: $wcbrs-darkgrey;
+
+		td, td:first-child, th {
+			border-right-color: $wcbrs-darkgrey;
+		}
+
+		thead th {
+			background-color: $wcbrs-blue;
+			color: white;
+		}
+
 		th.wcpt-col-time, td.wcpt-time {
 			text-align: center;
 		}
