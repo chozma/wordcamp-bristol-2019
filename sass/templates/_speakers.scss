@@ -31,8 +31,12 @@
 			color: $wcbrs-pink;
 		}
 
-		// .wcb-session-cell-content {
-		// 	padding-right: 10px;
-		// }
+		.wcb-session-cell-content {
+			padding-right: 10px;
+		}
+
+		.global-session {
+			background-color: $wcbrs-medlightgrey;
+		}
 	}
 }
