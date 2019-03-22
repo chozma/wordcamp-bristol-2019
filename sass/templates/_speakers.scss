@@ -12,7 +12,8 @@
 		color: $wcbrs-darkgrey;
 
 		td, td:first-child, th {
-			border-right-color: $wcbrs-darkgrey;
+			border-right: 10px solid $wcbrs-darkgrey !important;
+			padding-right: 
 		}
 
 		thead th {
@@ -22,6 +23,10 @@
 
 		th.wcpt-col-time, td.wcpt-time {
 			text-align: center;
+		}
+
+		.wcb-session-cell-content {
+			padding-right: 10px;
 		}
 	}
 }
