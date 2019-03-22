@@ -1,0 +1,16 @@
+.page-id-7 {
+	.site-content-contain {
+		background-color: $wcbrs-darkgrey;
+		color: white;
+	}
+
+	h1.entry-title {
+		display: none;
+	}
+
+	.wcpt-schedule {
+		th.wcpt-col-time, td.wcpt-time {
+			text-align: center;
+		}
+	}
+}
