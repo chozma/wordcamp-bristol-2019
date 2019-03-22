@@ -24,6 +24,10 @@
 			text-align: center;
 		}
 
+		td.wcb-favourite-session a.fav-session-button {
+			color: $wcbrs-pink;
+		}
+
 		.wcb-session-cell-content {
 			padding-right: 10px;
 		}
