@@ -27,7 +27,8 @@
 			text-align: center;
 		}
 
-		td.wcb-favourite-session a.fav-session-button {
+		td.wcb-favourite-session a.fav-session-button,
+		div.wcb-session-favourite-icon a.fav-session-button:hover {
 			color: $wcbrs-pink;
 		}
 
