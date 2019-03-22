@@ -35,3 +35,55 @@ a.wcpt-session-title {
 .wcpt-schedule .dashicons {
 	position: absolute;
 }
+
+.page-id-7 {
+	.site-content-contain {
+		background-color: $wcbrs-darkgrey;
+		color: white;
+	}
+
+	h1.entry-title {
+		display: none;
+	}
+
+	.wcpt-schedule {
+		color: $wcbrs-darkgrey;
+
+		td, td:first-child, th {
+			border-right: 10px solid $wcbrs-darkgrey !important;
+			font-size: $base-fontsize-desktop;
+			line-height: $base-lineheight-desktop;
+			padding: 12px;
+		}
+
+		thead th {
+			background-color: $wcbrs-blue;
+			color: white;
+		}
+
+		th.wcpt-col-time, td.wcpt-time {
+			text-align: center;
+		}
+
+		td.wcb-favourite-session a.fav-session-button,
+		#content & a.fav-session-button:hover,
+		div.wcb-session-favourite-icon a.fav-session-button:hover {
+			color: $wcbrs-pink !important;
+		}
+
+		.wcb-session-cell-content {
+			padding-right: 10px;
+		}
+
+		.global-session {
+			td, td:first-child {
+				background-color: $wcbrs-medlightgrey;
+			}
+		}
+
+		.wcpt-session-speakers {
+			display: block;
+			font-weight: bold;
+		}
+	}
+}
