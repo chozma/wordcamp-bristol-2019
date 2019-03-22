@@ -10,6 +10,8 @@
 
 	.wcpt-schedule {
 		color: $wcbrs-darkgrey;
+		font-size: $base-fontsize-desktop;
+		line-height: $base-lineheight-desktop;
 
 		td, td:first-child, th {
 			border-right: 10px solid $wcbrs-darkgrey !important;
