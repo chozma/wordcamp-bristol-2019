@@ -37,6 +37,7 @@ h2.widget-title {
 	text-transform: none;
 	font-size: $base-fontsize-mobile;
 	line-height: $base-lineheight-mobile;
+	background-color: black;
 	
 	@include media-breakpoint-up(md) {
 		font-size: $base-fontsize-desktop;
