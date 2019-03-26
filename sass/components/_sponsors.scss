@@ -1,5 +1,12 @@
 // Custom class added to reusable gutenberg block
-.sponsor-image {
+.white-background {
+	h2 {
+		color: $wcbrs-blue;
+	}
+	h3, h4 {
+		color: white;
+	}
+
 	img {
 		background-color: white;
 	}
