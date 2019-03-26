@@ -1,12 +1,13 @@
 // Custom class added to reusable gutenberg block
 .white-background {
+	background-color: white;
+	
 	h2 {
 		color: $wcbrs-blue;
 	}
 	h3, h4 {
 		color: white;
 	}
-
 	img {
 		background-color: white;
 	}
