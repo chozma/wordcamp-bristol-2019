@@ -65,13 +65,8 @@
 	}
 
 	h1.entry-title {
-		margin-top: 15px;
-		margin-bottom: 15px;
-
-		@include media-breakpoint-up(sm) {
-			margin-top: 30px;
-			margin-bottom: 30px;
-		}
+		margin-top: 0;
+		margin-bottom: 0;
 	}
 }
 
