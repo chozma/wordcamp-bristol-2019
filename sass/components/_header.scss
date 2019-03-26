@@ -58,7 +58,8 @@
 
 
 // Hide header on certain pages
-.page-id-11 //locations and dates page
+.page-id-11, //locations and dates page
+.page-id-7 //schedule page
 {
 	.custom-header {
 		display: none;
