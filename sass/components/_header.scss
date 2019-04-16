@@ -75,7 +75,7 @@
 	max-width: 740px;
 	margin: auto;
 
-	@include media-breakpoint-up(md) {
+	@include media-breakpoint-up(sm) {
 		margin-top: 70px;
 	}
 }
