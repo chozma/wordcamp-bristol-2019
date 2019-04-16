@@ -74,4 +74,8 @@
 .single-featured-image-header {
 	max-width: 740px;
 	margin: auto;
+
+	@include media-breakpoint-up(md) {
+		margin-top: 70px;
+	}
 }
